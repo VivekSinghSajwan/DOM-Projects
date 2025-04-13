@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="04.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../main.html">Home</a>
+        <a href="https://www.youtube.com" target="_blank">YouTube Channel</a>
+    </div>
+
+    <div class="gameTitle">
+        NUMBER GUESSING GAME
+    </div>
+    <div class="body">
+        <div class="gameInfo">
+            <div>Try and guess a random number between 1 and 100</div>
+            <div>You have 10 attempts to guess the right number</div>
+        </div>
+        <div class="guessTitle">
+            <form action="#">
+                <div>
+                    <label for="guess">Guess a number</label>
+                    <br>
+                    <input type="text" id="guess">
+                </div>
+                <div>
+                    <button type="submit">Submit Guess</button>
+                </div>
+            </form>
+        </div>
+        <div class="guessInfo">
+            <div class="prevGuess">
+                <div class="prevArray">Previous Guesses: </div>
+            </div>
+            <div class="remGuess">
+                <span>Remaining Guesses: </span>
+                <span class="leftArray">10</span>
+            </div>
+            <div class="hint"></div>
+        </div>
+    </div>
+    <script src="04.js"></script>
+</body>
+</html>
